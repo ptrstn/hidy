@@ -7,5 +7,6 @@ setup(
     author="Peter Stein",
     author_email="peter.stein@protonmail.com",
     packages=find_packages(),
+    install_requires=["pyyaml"],
     entry_points={"console_scripts": ["hidy=hidy.main:main"]},
 )
