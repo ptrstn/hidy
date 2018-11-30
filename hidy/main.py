@@ -6,7 +6,9 @@ from hidy.parser import parse_config
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="A multi monitor high dpi display configurator")
+    parser = argparse.ArgumentParser(
+        description="A multi monitor high dpi display configurator"
+    )
 
     parser.add_argument(
         "configs", metavar="monitor", nargs="+", help="monitor configuration files"
